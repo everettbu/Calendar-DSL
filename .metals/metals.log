@@ -13188,3 +13188,11 @@ file%3A%2F%2F%2FUsers%2FEverett%2FDesktop%2FCS111%2Fartifact-everettbu%2Fartifac
 2023.04.08 16:07:14 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
 Apr 08, 2023 4:39:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.04.09 19:16:35 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.09 19:16:35 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.09 19:16:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.09 19:16:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/project/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.09 19:16:35 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.09 19:16:36 INFO  time: indexed workspace in 0.95s
+2023.04.09 19:16:36 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/artifact/build.sbt
+2023.04.09 19:16:36 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala

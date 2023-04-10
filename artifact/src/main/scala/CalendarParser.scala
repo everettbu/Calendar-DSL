@@ -71,7 +71,7 @@ object CalendarParser {
         } else {
           println(s"No event found: $eventName on $date\n$calendarString")
         }
-
+ 
       case _ =>
         println("Invalid input. Please enter 'add' or 'remove'.")
     }
