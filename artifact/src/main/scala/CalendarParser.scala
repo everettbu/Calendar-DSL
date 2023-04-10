@@ -1,3 +1,5 @@
+import java.io.{File, FileWriter}
+import java.text.SimpleDateFormat
 import java.time.{LocalDate, ZoneId}
 import java.time.format.DateTimeFormatter
 import net.fortuna.ical4j.model.component.VEvent
@@ -24,24 +26,12 @@ object CalendarParser {
     // Create a new calendar instance
     val cal = new Calendar()
 
-    // if (input == "print events") {
-    //   println("All events in the calendar:")
-    //   cal.getComponents.asScala.foreach {
-    //     case event: VEvent =>
-    //       val summary = event.getSummary.getValue
-    //       val startDate = LocalDate.ofInstant(event.getStartDate.getDate.toInstant, java.time.ZoneId.systemDefault())
-    //       println(s"$startDate: $summary")
-    //     case _ =>
-    //       // Ignore non-VEvent components
-    //   }
-    // }
-
     // Check if the input is for adding or removing an event
     parts(2) match {
       case "add" =>
         // Create a new event
         val event = new VEvent(new DateTime(date.atStartOfDay(ZoneId.systemDefault()).toInstant.toEpochMilli),
-          new DateTime(date.atStartOfDay(ZoneId.systemDefault()).plusHours(1).toInstant.toEpochMilli), eventName)
+          new DateTime(date.atStartOfDay(ZoneId.systemDefault()).plusDays(1).minusSeconds(1).toInstant.toEpochMilli), eventName)
 
         // Add the event to the calendar
         cal.getComponents.add(event)
@@ -52,26 +42,38 @@ object CalendarParser {
         // Print the calendar to the console
         println(s"Added event: $eventName on $date")
 
+        // Append the event to the output file
+        val outputFile = new File("calendar.ics")
+        val fileWriter = new FileWriter(outputFile, true) // set the "append" flag to true
+        fileWriter.write(calendarString)
+        fileWriter.close()
+
       case "remove" =>
+        // Create a date format object to match the date format used in the VEvent object
+        val dateFormat = new SimpleDateFormat("yyyyMMdd")
+
         // Search for events with matching name and start date
         val eventsToRemove = cal.getComponents.asScala.collect {
           case event: VEvent if event.getSummary.getValue == eventName &&
-            event.getStartDate.getDate == new DateTime(date.atStartOfDay(ZoneId.systemDefault()).toInstant.toEpochMilli) => event
+            dateFormat.format(event.getStartDate.getDate) == dateFormat.format(new DateTime(date.atStartOfDay(ZoneId.systemDefault()).toInstant.toEpochMilli)) => event
         }
 
         // Remove matching events
         eventsToRemove.foreach(event => cal.getComponents.remove(event))
 
-        // Get the calendar as a string
-        val calendarString = cal.toString()
-
         // Print the calendar to the console
         if (eventsToRemove.nonEmpty) {
-          println(s"Removed event: $eventName on $date\n$calendarString")
+          println(s"Removed event: $eventName on $date")
         } else {
-          println(s"No event found: $eventName on $date\n$calendarString")
+          println(s"No event found: $eventName on $date")
         }
- 
+
+        // Overwrite the output file with the updated calendar
+        val outputFile = new File("calendar.ics")
+        val fileWriter = new FileWriter(outputFile)
+        fileWriter.write(cal.toString)
+        fileWriter.close()
+
       case _ =>
         println("Invalid input. Please enter 'add' or 'remove'.")
     }
