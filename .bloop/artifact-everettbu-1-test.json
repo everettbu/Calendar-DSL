@@ -1,27 +1,28 @@
 {
     "version": "1.4.0",
     "project": {
-        "name": "artifact-everettbu",
-        "directory": "/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu",
-        "workspaceDir": "/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu",
+        "name": "artifact-everettbu-1-test",
+        "directory": "/Users/Everett/Desktop/CS111/artifact-everettbu-1",
+        "workspaceDir": "/Users/Everett/Desktop/CS111/artifact-everettbu-1",
         "sources": [
-            "/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/src/main/scala",
-            "/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/src/main/scala-2.12",
-            "/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/src/main/scala-2",
-            "/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/src/main/java",
-            "/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/target/scala-2.12/src_managed/main"
+            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/src/test/scala",
+            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/src/test/scala-2.12",
+            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/src/test/scala-2",
+            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/src/test/java",
+            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/target/scala-2.12/src_managed/test"
         ],
         "dependencies": [
-            
+            "artifact-everettbu-1"
         ],
         "classpath": [
+            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/.bloop/artifact-everettbu-1/scala-2.12/classes",
             "/Users/Everett/.sbt/boot/scala-2.12.16/lib/scala-library.jar"
         ],
-        "out": "/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/.bloop/artifact-everettbu",
-        "classesDir": "/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/.bloop/artifact-everettbu/scala-2.12/classes",
+        "out": "/Users/Everett/Desktop/CS111/artifact-everettbu-1/.bloop/artifact-everettbu-1",
+        "classesDir": "/Users/Everett/Desktop/CS111/artifact-everettbu-1/.bloop/artifact-everettbu-1/scala-2.12/test-classes",
         "resources": [
-            "/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/src/main/resources",
-            "/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/target/scala-2.12/resource_managed/main"
+            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/src/test/resources",
+            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/target/scala-2.12/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -99,7 +100,7 @@
             "config": {
                 "home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre",
                 "options": [
-                    "-Duser.dir=/Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu"
+                    "-Duser.dir=/Users/Everett/Desktop/CS111/artifact-everettbu-1"
                 ]
             },
             "mainClass": [
@@ -122,11 +123,6 @@
                             "name": "scala-library",
                             "classifier": "sources",
                             "path": "/Users/Everett/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.16/scala-library-2.12.16-sources.jar"
-                        },
-                        {
-                            "name": "scala-library",
-                            "classifier": "javadoc",
-                            "path": "/Users/Everett/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.16/scala-library-2.12.16-javadoc.jar"
                         }
                     ]
                 },
@@ -144,18 +140,13 @@
                             "name": "scala-library",
                             "classifier": "sources",
                             "path": "/Users/Everett/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.16/scala-library-2.12.16-sources.jar"
-                        },
-                        {
-                            "name": "scala-library",
-                            "classifier": "javadoc",
-                            "path": "/Users/Everett/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.16/scala-library-2.12.16-javadoc.jar"
                         }
                     ]
                 }
             ]
         },
         "tags": [
-            "library"
+            "test"
         ]
     }
 }

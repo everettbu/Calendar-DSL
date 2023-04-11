@@ -9,57 +9,59 @@ import scala.collection.JavaConverters._
 import scala.io.Source
 
 object CalendarParser {
-  def main(args: Array[String]): Unit = {
-    // Read the input from a file
-    val inputFile = new File("input.txt")
-    val input = Source.fromFile(inputFile).mkString.trim()
 
-    // Split the input into parts
-    val parts = input.split("\\s+")
+    def readCalendar(file: File): List[VEvent] = {
+    val fileReader = new FileReader(file)
+    val calendar = new CalendarBuilder().build(fileReader)
+    val events = calendar.getComponents.asScala.collect {case event: VEvent => event}
+    fileReader.close()
+    events.toList
+  }
 
-    // Parse the date
-    val dateStr = s"${LocalDate.now().getYear} ${parts(0)} ${parts(1)}"
-    val date = LocalDate.parse(dateStr, DateTimeFormatter.ofPattern("yyyy MMM dd"))
-
-    // Parse the event name
-    val eventName = input.split("'")(1)
+    def main(args: Array[String]): Unit = {
+    // Parse the file
+    val inputFilePath = "input.txt"
+    val inputLines = scala.io.Source.fromFile(inputFilePath).getLines().filter(_.nonEmpty).toList
 
     // Create a new calendar instance
     val cal = new Calendar()
 
-    // Check if the input is for adding or removing an event
-    parts(2) match {
-      case "add" =>
-        // Create a new event
-        val event = new VEvent(new DateTime(date.atStartOfDay(ZoneId.systemDefault()).toInstant.toEpochMilli),
-          new DateTime(date.atStartOfDay(ZoneId.systemDefault()).plusDays(1).minusSeconds(1).toInstant.toEpochMilli), eventName)
+    // Loop through the input lines
+    for (input <- inputLines) {
+      // Split the input into parts
+      val parts = input.split("\\s+")
 
-        // Add the event to the calendar
-        cal.getComponents.add(event)
-        println(s"Added event: $eventName on $date")
+      // Parse the date
+      val dateStr = s"${LocalDate.now().getYear} ${parts(0)} ${parts(1)}"
+      val date = LocalDate.parse(dateStr, DateTimeFormatter.ofPattern("yyyy MMM dd"))
 
-        // Append the event to the output file
-        val outputFile = new File("calendar.ics")
-        val fileWriter = new FileWriter(outputFile, true)
-        fileWriter.write(cal.toString)
-        fileWriter.close()
+      // Parse the event name
+      val eventName = input.split("'")(1)
 
-      case "remove" =>
-        println("not working")
+      // Check if the input is for adding or removing an event
+      parts(2) match {
+        case "add" =>
+          // Create a new event
+          val event = new VEvent(new DateTime(date.atStartOfDay(ZoneId.systemDefault()).toInstant.toEpochMilli),
+            new DateTime(date.atStartOfDay(ZoneId.systemDefault()).plusDays(1).minusSeconds(1).toInstant.toEpochMilli), eventName)
 
-      case _ =>
-        println("Invalid input. Please enter 'add' or 'remove'.")
+          // Add the event to the calendar
+          cal.getComponents.add(event)
+          println(s"Added event: $eventName on $date")
+
+        case "remove" =>
+          println("not working yet")
+
+        case _ =>
+          println("Invalid input. Please enter 'add' or 'remove'.")
+      }
     }
-  }
 
-  def readCalendar(file: File): List[VEvent] = {
-    val fileReader = new FileReader(file)
-    val calendar = new CalendarBuilder().build(fileReader)
-    val events = calendar.getComponents.asScala.collect {
-      case event: VEvent => event
-    }
-    fileReader.close()
-    events.toList
+    // Write the calendar to a file
+    val outputFile = new File("calendar.ics")
+    val fileWriter = new FileWriter(outputFile, true)
+    fileWriter.write(cal.toString)
+    fileWriter.close()
   }
 }
 

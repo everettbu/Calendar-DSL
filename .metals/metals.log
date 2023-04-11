@@ -13196,3 +13196,142 @@ INFO: Unsupported notification method: $/setTrace
 2023.04.09 19:16:36 INFO  time: indexed workspace in 0.95s
 2023.04.09 19:16:36 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/artifact/build.sbt
 2023.04.09 19:16:36 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:31:52 INFO  Started: Metals version 0.11.11 in workspace '/Users/Everett/Desktop/CS111/artifact-everettbu-1' for client Visual Studio Code 1.77.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/Everett/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.10 20:31:56 INFO  time: initialize in 3.94s
+2023.04.10 20:31:57 INFO  Attempting to connect to the build server...
+2023.04.10 20:31:57 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.10 20:31:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-1/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.10 20:31:57 INFO  Attempting to connect to the build server...
+2023.04.10 20:31:57 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.10 20:31:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-1/project/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.10 20:31:57 INFO  time: Connected to build server in 0.44s
+2023.04.10 20:31:57 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.10 20:31:59 INFO  time: indexed workspace in 1.87s
+2023.04.10 20:32:03 INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/h_/kk82293x21d2gfbwt54pjjmc0000gn/T/metals8722522777029523661/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.04.10 20:32:04 INFO  [info] welcome to sbt 1.7.1 (Oracle Corporation Java 1.8.0_261)
+2023.04.10 20:32:07 INFO  [info] loading settings for project artifact-everettbu-1-build-build from metals.sbt ...
+2023.04.10 20:32:07 INFO  [info] loading project definition from /Users/Everett/Desktop/CS111/artifact-everettbu-1/project/project
+2023.04.10 20:32:10 INFO  [info] loading settings for project artifact-everettbu-1-build from metals.sbt ...
+2023.04.10 20:32:10 INFO  [info] loading project definition from /Users/Everett/Desktop/CS111/artifact-everettbu-1/project
+2023.04.10 20:32:12 INFO  [success] Generated .bloop/artifact-everettbu-1-build.json
+2023.04.10 20:32:12 INFO  [warn] Removed stale /Users/Everett/Desktop/CS111/artifact-everettbu-1/project/.bloop/artifact-everettbu-build.json
+2023.04.10 20:32:12 INFO  [success] Total time: 2 s, completed Apr 10, 2023 8:32:12 PM
+2023.04.10 20:32:12 INFO  [info] set current project to artifact-everettbu-1 (in build file:/Users/Everett/Desktop/CS111/artifact-everettbu-1/)
+2023.04.10 20:32:12 INFO  [success] Generated .bloop/artifact-everettbu-1.json
+2023.04.10 20:32:12 INFO  [success] Generated .bloop/artifact-everettbu-1-test.json
+2023.04.10 20:32:12 INFO  [warn] Removed stale /Users/Everett/Desktop/CS111/artifact-everettbu-1/.bloop/artifact-everettbu.json
+2023.04.10 20:32:12 INFO  [warn] Removed stale /Users/Everett/Desktop/CS111/artifact-everettbu-1/.bloop/artifact-everettbu-test.json
+2023.04.10 20:32:12 INFO  [success] Total time: 0 s, completed Apr 10, 2023 8:32:12 PM
+2023.04.10 20:32:12 INFO  time: ran 'sbt bloopInstall' in 9.49s
+2023.04.10 20:32:12 INFO  Disconnecting from Bloop session...
+2023.04.10 20:32:12 INFO  Shut down connection with build server.
+2023.04.10 20:32:12 INFO  Shut down connection with build server.
+2023.04.10 20:32:12 INFO  Attempting to connect to the build server...
+2023.04.10 20:32:12 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.10 20:32:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-1/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.10 20:32:12 INFO  Attempting to connect to the build server...
+2023.04.10 20:32:12 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.10 20:32:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-1/project/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.10 20:32:12 INFO  time: Connected to build server in 0.15s
+2023.04.10 20:32:12 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.10 20:32:13 INFO  time: indexed workspace in 0.58s
+2023.04.10 20:32:25 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:35:18 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:35:36 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:35:37 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+Apr 10, 2023 8:36:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2FEverett%2FDesktop%2FCS111%2Fartifact-everettbu-1%2Fartifact%2Fsrc%2Fmain%2Fscala%2FCalendarParser.scala:11: error: illegal start of definition def
+def readCalendar(file: File): List[VEvent] = {
+^
+file%3A%2F%2F%2FUsers%2FEverett%2FDesktop%2FCS111%2Fartifact-everettbu-1%2Fartifact%2Fsrc%2Fmain%2Fscala%2FCalendarParser.scala:11: error: illegal start of definition def
+def readCalendar(file: File): List[VEvent] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4476)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4476)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.10 20:36:00 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+Apr 10, 2023 8:36:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2FEverett%2FDesktop%2FCS111%2Fartifact-everettbu-1%2Fartifact%2Fsrc%2Fmain%2Fscala%2FCalendarParser.scala:11: error: illegal start of definition def
+def readCalendar(file: File): List[VEvent] = {
+^
+file%3A%2F%2F%2FUsers%2FEverett%2FDesktop%2FCS111%2Fartifact-everettbu-1%2Fartifact%2Fsrc%2Fmain%2Fscala%2FCalendarParser.scala:11: error: illegal start of definition def
+def readCalendar(file: File): List[VEvent] = {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4476)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4476)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.10 20:36:06 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:36:29 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:37:02 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:37:05 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:37:16 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:37:18 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:37:21 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:39:43 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:39:46 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:39:54 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:41:23 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:41:40 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+2023.04.10 20:41:42 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-1/artifact/src/main/scala/CalendarParser.scala
+Apr 10, 2023 8:42:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
