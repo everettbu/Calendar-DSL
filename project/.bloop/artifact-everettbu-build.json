@@ -1,16 +1,16 @@
 {
     "version": "1.4.0",
     "project": {
-        "name": "artifact-everettbu-1-build",
-        "directory": "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project",
-        "workspaceDir": "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project",
+        "name": "artifact-everettbu-build",
+        "directory": "/Users/Everett/Desktop/CS111/artifact-everettbu/project",
+        "workspaceDir": "/Users/Everett/Desktop/CS111/artifact-everettbu/project",
         "sources": [
-            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project/src/main/scala",
-            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project/src/main/scala-2.12",
-            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project/src/main/scala-2",
-            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project/src/main/java",
-            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project/src/main/scala-sbt-1.0",
-            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/Users/Everett/Desktop/CS111/artifact-everettbu/project/src/main/scala",
+            "/Users/Everett/Desktop/CS111/artifact-everettbu/project/src/main/scala-2.12",
+            "/Users/Everett/Desktop/CS111/artifact-everettbu/project/src/main/scala-2",
+            "/Users/Everett/Desktop/CS111/artifact-everettbu/project/src/main/java",
+            "/Users/Everett/Desktop/CS111/artifact-everettbu/project/src/main/scala-sbt-1.0",
+            "/Users/Everett/Desktop/CS111/artifact-everettbu/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -103,11 +103,11 @@
             "/Users/Everett/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
             "/Users/Everett/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
         ],
-        "out": "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project/.bloop/artifact-everettbu-1-build",
-        "classesDir": "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project/.bloop/artifact-everettbu-1-build/scala-2.12/sbt-1.0/classes",
+        "out": "/Users/Everett/Desktop/CS111/artifact-everettbu/project/.bloop/artifact-everettbu-build",
+        "classesDir": "/Users/Everett/Desktop/CS111/artifact-everettbu/project/.bloop/artifact-everettbu-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project/src/main/resources",
-            "/Users/Everett/Desktop/CS111/artifact-everettbu-1/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/Users/Everett/Desktop/CS111/artifact-everettbu/project/src/main/resources",
+            "/Users/Everett/Desktop/CS111/artifact-everettbu/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -197,9 +197,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/local/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home",
+                "home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre",
                 "options": [
-                    "-Duser.dir=/Users/Everett/Desktop/CS111/artifact-everettbu-1/project"
+                    "-Duser.dir=/Users/Everett/Desktop/CS111/artifact-everettbu/project"
                 ]
             },
             "mainClass": [
