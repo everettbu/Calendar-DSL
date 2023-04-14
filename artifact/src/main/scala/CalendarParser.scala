@@ -26,6 +26,9 @@ object CalendarParser {
     // Create a new calendar instance
     val cal = new Calendar()
 
+    // Initialize an empty array for the events
+    var events = Array.empty[(String, String)]
+
     // Loop through the input lines
     for (input <- inputLines) {
       // Split the input into parts
@@ -41,12 +44,8 @@ object CalendarParser {
       // Check if the input is for adding or removing an event
       parts(2) match {
         case "add" =>
-          // Create a new event
-          val event = new VEvent(new DateTime(date.atStartOfDay(ZoneId.systemDefault()).toInstant.toEpochMilli),
-            new DateTime(date.atStartOfDay(ZoneId.systemDefault()).plusDays(1).minusSeconds(1).toInstant.toEpochMilli), eventName)
-
-          // Add the event to the calendar
-          cal.getComponents.add(event)
+          // Add the event to the array
+          events = events :+ (date.format(DateTimeFormatter.ofPattern("MM-dd")), eventName)
           println(s"Added event: $eventName on $date")
 
         case "remove" =>
@@ -57,11 +56,24 @@ object CalendarParser {
       }
     }
 
-    // Write the calendar to a file
+    // Write the calendar to an ics file
     val outputFile = new File("calendar.ics")
     val fileWriter = new FileWriter(outputFile, true)
     fileWriter.write(cal.toString)
     fileWriter.close()
+
+  // Write the events array to a new file
+    val eventsFile = new File("events.js")
+    val eventsWriter = new FileWriter(eventsFile)
+    eventsWriter.write(s"const events = [\n")
+    for ((date, title) <- events) {
+      eventsWriter.write(s""" {title: "$title", date: "$date"},\n""")
+    }
+    eventsWriter.write("];\n")
+    eventsWriter.close()
+
+
+    // Print the events array
+    println(events.mkString("\n"))
   }
 }
-
