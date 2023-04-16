@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>Monthly Calendar</title>
-  <script src="events.js"></script>
   <style>
     table {
       border-collapse: collapse;
@@ -138,26 +137,28 @@
       </tr>
     </tbody>
   </table>
-  </form>
-</body>
-<script>
-  const events = [
-    {title: "additional", date: "01-15"},
-    {title: "test", date: "01-15"},
-    ];
-  
-  const cells = document.querySelectorAll("td");
-  
-  for (let cell of cells) {
-    const cellid = cell.dataset.id;
+  <script src="events.js">
+    var myData = []
+    myData = getData();
+    console.log(myData);
+  </script>
+  <script>
+    function addEventsToCells() {    
+    const cells = document.querySelectorAll("div");
     
-    for (let event of events) {
-      if (event.date === cellid) {
-        const eventDiv = document.createElement("div");
-        eventDiv.textContent = event.title;
-        cell.appendChild(eventDiv);
+    for (let cell of cells) {
+      const cellid = cell.dataset.id;
+          
+      for (let event of events) {
+        if (event.date === cellid) {
+          const eventDiv = document.createElement("div");
+          eventDiv.textContent = event.title;
+          cell.appendChild(eventDiv);
+        }
       }
     }
   }
-</script>  
+  addEventsToCells();
+  </script>  
+</body>
 </html>
