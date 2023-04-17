@@ -56,12 +56,6 @@ object CalendarParser {
       }
     }
 
-    // Write the calendar to an ics file
-    val outputFile = new File("calendar.ics")
-    val fileWriter = new FileWriter(outputFile, true)
-    fileWriter.write(cal.toString)
-    fileWriter.close()
-
   // Write the events array to a new file
     val eventsFile = new File("events.js")
     val eventsWriter = new FileWriter(eventsFile)
