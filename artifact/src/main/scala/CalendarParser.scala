@@ -10,14 +10,6 @@ import scala.io.Source
 
 object CalendarParser {
 
-    def readCalendar(file: File): List[VEvent] = {
-    val fileReader = new FileReader(file)
-    val calendar = new CalendarBuilder().build(fileReader)
-    val events = calendar.getComponents.asScala.collect {case event: VEvent => event}
-    fileReader.close()
-    events.toList
-  }
-
     def main(args: Array[String]): Unit = {
     // Parse the file
     val inputFilePath = "input.txt"
@@ -26,8 +18,8 @@ object CalendarParser {
     // Create a new calendar instance
     val cal = new Calendar()
 
-    // Initialize an empty array for the events
-    var events = Array.empty[(String, String)]
+    // Initialize an empty mutable list for the events
+    var events = List[(String, String, Option[String], Option[String])]()
 
     // Loop through the input lines
     for (input <- inputLines) {
@@ -38,14 +30,16 @@ object CalendarParser {
       val dateStr = s"${LocalDate.now().getYear} ${parts(0)} ${parts(1)}"
       val date = LocalDate.parse(dateStr, DateTimeFormatter.ofPattern("yyyy MMM dd"))
 
-      // Parse the event name
+      // Parse the event name and style (if present)
       val eventName = input.split("'")(1)
+      val eventColor = if (input.contains("(")) Some(input.split("\\(")(1).split("\\)")(0)) else None
+      val eventStyle = if (input.contains("(")) Some(input.split("\\(")(2).split("\\)")(0)) else None
 
       // Check if the input is for adding or removing an event
       parts(2) match {
         case "add" =>
-          // Add the event to the array
-          events = events :+ (date.format(DateTimeFormatter.ofPattern("MM-dd")), eventName)
+          // Add the event to the list
+          events = events :+ (date.format(DateTimeFormatter.ofPattern("MM-dd")), eventName, eventColor, eventStyle)
           println(s"Added event: $eventName on $date")
 
         case "remove" =>
@@ -56,12 +50,19 @@ object CalendarParser {
       }
     }
 
-  // Write the events array to a new file
+    // Write the events list to a new file
     val eventsFile = new File("events.js")
     val eventsWriter = new FileWriter(eventsFile)
     eventsWriter.write(s"const events = [\n")
-    for ((date, title) <- events) {
-      eventsWriter.write(s""" {title: "$title", date: "$date"},\n""")
+    for ((date, title, color, style) <- events) {
+      eventsWriter.write(s""" {title: "$title", date: "$date"""")
+      if (color.isDefined) {
+        eventsWriter.write(s""" color: "${color.get}", """)
+      }
+      if (style.isDefined) {
+        eventsWriter.write(s""" style: "${style.get}" """)
+      }
+      eventsWriter.write(s"""},\n""")
     }
     eventsWriter.write("];\n")
     eventsWriter.close()
