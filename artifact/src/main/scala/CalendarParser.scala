@@ -71,9 +71,5 @@ object CalendarParser {
     }
     eventsWriter.write("];\n")
     eventsWriter.close()
-
-
-    // Print the events array
-    println(events.mkString("\n"))
   }
 }

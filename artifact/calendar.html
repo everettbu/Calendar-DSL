@@ -3,14 +3,16 @@
 <head>
   <title>Monthly Calendar</title>
   <style>
-    table {
+        table {
       border-collapse: collapse;
       width: 100%;
     }
     th, td {
       border: 1px solid black;
       text-align: center;
-      padding: 10px;
+      padding: 11px;
+      width: 50px;
+      height: 10px;
     }
     th {
       background-color: #ddd;
@@ -19,12 +21,13 @@
       font-size: 14px;
       margin-top: 5px;
     }
-    .event-time {
-      font-weight: bold;
-    }
     .event-title {
       margin-left: 10px;
     }
+    [data-id] {
+  	  width: 50px;
+      height: 80px;
+	  }
   </style>
 </head>
 <body>
