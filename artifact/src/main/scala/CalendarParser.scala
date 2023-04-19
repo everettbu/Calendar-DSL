@@ -55,12 +55,12 @@ object CalendarParser {
     val eventsWriter = new FileWriter(eventsFile)
     eventsWriter.write(s"const events = [\n")
     for ((date, title, color, style) <- events) {
-      eventsWriter.write(s""" {title: "$title", date: "$date"""")
+      eventsWriter.write(s""" {title: "$title", date: "$date",""")
       if (color.isDefined) {
         eventsWriter.write(s""" color: "${color.get}", """)
       }
       if (style.isDefined) {
-        eventsWriter.write(s""" style: "${style.get}" """)
+        eventsWriter.write(s""" style: "${style.get}"""")
       }
       eventsWriter.write(s"""},\n""")
     }
