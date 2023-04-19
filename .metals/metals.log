@@ -30536,3 +30536,69 @@ Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not in
 	... 15 more
 
 2023.04.17 18:31:48 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 13:32:28 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.19 13:32:28 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.19 13:32:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.19 13:32:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu/project/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.19 13:32:28 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.19 13:32:30 INFO  time: indexed workspace in 2.07s
+2023.04.19 13:32:30 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 13:32:34 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 13:32:37 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:00:03 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:00:16 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:00:28 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:00:40 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:00:51 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:00:58 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:01:00 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:01:02 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:02:16 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:02:24 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:02:32 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:02:36 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:02:39 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:02:41 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:02:42 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:02:43 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:02:48 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:03:17 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:03:21 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:05:48 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:05:53 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:06:12 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:06:14 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:10:42 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:10:45 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:10:53 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:10:56 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:10:58 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:10:58 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:11:01 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:11:04 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:11:07 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:11:26 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:11:28 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:11:30 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:11:35 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:11:37 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:11:52 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:12:12 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:12:13 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:12:49 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:13:29 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:13:33 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:13:35 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:13:37 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:13:41 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:13:43 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:20:52 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:20:55 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:21:02 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:21:12 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:21:14 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:21:18 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:21:21 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:21:40 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:22:12 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.19 14:22:15 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala

@@ -19,7 +19,7 @@ object CalendarParser {
     val cal = new Calendar()
 
     // Initialize an empty mutable list for the events
-    var events = List[(String, String, Option[String], Option[String])]()
+    var events = List[(String, String, Option[String])]()
 
     // Loop through the input lines
     for (input <- inputLines) {
@@ -33,13 +33,12 @@ object CalendarParser {
       // Parse the event name and style (if present)
       val eventName = input.split("'")(1)
       val eventColor = if (input.contains("(")) Some(input.split("\\(")(1).split("\\)")(0)) else None
-      val eventStyle = if (input.contains("(")) Some(input.split("\\(")(2).split("\\)")(0)) else None
 
       // Check if the input is for adding or removing an event
       parts(2) match {
         case "add" =>
           // Add the event to the list
-          events = events :+ (date.format(DateTimeFormatter.ofPattern("MM-dd")), eventName, eventColor, eventStyle)
+          events = events :+ (date.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")), eventName, eventColor)
           println(s"Added event: $eventName on $date")
 
         case "remove" =>
@@ -54,13 +53,10 @@ object CalendarParser {
     val eventsFile = new File("events.js")
     val eventsWriter = new FileWriter(eventsFile)
     eventsWriter.write(s"const events = [\n")
-    for ((date, title, color, style) <- events) {
+    for ((date, title, color) <- events) {
       eventsWriter.write(s""" {title: "$title", date: "$date",""")
       if (color.isDefined) {
-        eventsWriter.write(s""" color: "${color.get}", """)
-      }
-      if (style.isDefined) {
-        eventsWriter.write(s""" style: "${style.get}"""")
+        eventsWriter.write(s""" color: "${color.get}"""")
       }
       eventsWriter.write(s"""},\n""")
     }

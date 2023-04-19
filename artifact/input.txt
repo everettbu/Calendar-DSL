@@ -1,3 +1,3 @@
-Jan 05 add 'Quiz' (blue) (bold)
-Jan 17 add 'Project due'
+Jan 05 add 'Quiz' (blue)
+Jan 17 add 'Project due' (orange)
 Feb 17 add 'February'
