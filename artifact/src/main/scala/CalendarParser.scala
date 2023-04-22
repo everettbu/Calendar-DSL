@@ -10,7 +10,7 @@ import scala.io.Source
 
 object CalendarParser {
 
-    def main(args: Array[String]): Unit = {
+  def main(args: Array[String]): Unit = {
     // Parse the file
     val inputFilePath = "input.txt"
     val inputLines = scala.io.Source.fromFile(inputFilePath).getLines().filter(_.nonEmpty).toList
@@ -19,7 +19,7 @@ object CalendarParser {
     val cal = new Calendar()
 
     // Initialize an empty mutable list for the events
-    var events = List[(String, String, Option[String])]()
+    var events = List[(String, String, String)]()
 
     // Loop through the input lines
     for (input <- inputLines) {
@@ -27,12 +27,13 @@ object CalendarParser {
       val parts = input.split("\\s+")
 
       // Parse the date
-      val dateStr = s"${LocalDate.now().getYear} ${parts(0)} ${parts(1)}"
-      val date = LocalDate.parse(dateStr, DateTimeFormatter.ofPattern("yyyy MMM dd"))
+      val inputDate = s"${LocalDate.now().getYear} ${parts(0)} ${parts(1)}"
+      val dateFormatter = DateTimeFormatter.ofPattern("yyyy MMM d")
+      val date = LocalDate.parse(inputDate, dateFormatter)
 
       // Parse the event name and style (if present)
       val eventName = input.split("'")(1)
-      val eventColor = if (input.contains("(")) Some(input.split("\\(")(1).split("\\)")(0)) else None
+      val eventColor = if (input.contains("(")) input.split("\\(")(1).split("\\)")(0) else "black"
 
       // Check if the input is for adding or removing an event
       parts(2) match {
@@ -54,11 +55,7 @@ object CalendarParser {
     val eventsWriter = new FileWriter(eventsFile)
     eventsWriter.write(s"const events = [\n")
     for ((date, title, color) <- events) {
-      eventsWriter.write(s""" {title: "$title", date: "$date",""")
-      if (color.isDefined) {
-        eventsWriter.write(s""" color: "${color.get}"""")
-      }
-      eventsWriter.write(s"""},\n""")
+      eventsWriter.write(s""" {title: "$title", date: "$date", color: "$color"},\n""")
     }
     eventsWriter.write("];\n")
     eventsWriter.close()
