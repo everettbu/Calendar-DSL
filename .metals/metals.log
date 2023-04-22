@@ -30602,3 +30602,33 @@ Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not in
 2023.04.19 14:21:40 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
 2023.04.19 14:22:12 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
 2023.04.19 14:22:15 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu/artifact/src/main/scala/CalendarParser.scala
+2023.04.22 11:37:21 INFO  Started: Metals version 0.11.12 in workspace '/Users/Everett/Desktop/CS111/artifact-everettbu-2' for client Visual Studio Code 1.77.3.
+Apr 22, 2023 11:37:21 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 22, 2023 11:37:21 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 22, 2023 11:37:21 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 22, 2023 11:37:25 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/.metals/metals (H2 2.1)
+Apr 22, 2023 11:37:25 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.026s)
+Apr 22, 2023 11:37:25 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 22, 2023 11:37:25 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.22 11:37:25 INFO  time: initialize in 4.08s
+2023.04.22 11:37:25 INFO  Attempting to connect to the build server...
+2023.04.22 11:37:25 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.22 11:37:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-2/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.22 11:37:31 INFO  Attempting to connect to the build server...
+2023.04.22 11:37:31 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.22 11:37:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-2/project/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.22 11:37:31 INFO  time: Connected to build server in 4.96s
+2023.04.22 11:37:31 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.22 11:37:36 INFO  time: indexed workspace in 4.98s
+2023.04.22 11:37:43 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/build.sbt
+2023.04.22 11:37:52 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/build.sbt
+2023.04.22 11:39:05 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/src/main/scala/CalendarParser.scala
+Apr 22, 2023 11:54:48 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

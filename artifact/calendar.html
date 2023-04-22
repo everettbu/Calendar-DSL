@@ -5,17 +5,19 @@
   </head>
   <body>
     <div id='calendar'></div>
-    <script src="events.js">
-      var myData = []
-      myData = getData();
-      console.log(myData);
-    </script>
+    <script src="events.js"></script>
     <script>
-      
       document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'dayGridMonth'
+          initialView: 'dayGridMonth',
+          eventClick: function(info) {
+            if (info.event.backgroundColor == 'grey') {
+              info.event.setProp('backgroundColor', info.event.extendedProps.color);
+            } else {
+              info.event.setProp('backgroundColor', 'grey');
+            }
+          }
         });
         
         for (let event of events) {
@@ -23,6 +25,9 @@
             title: event.title,
             start: event.date,
             color: event.color,
+            extendedProps: {
+              color: event.color // Save the original color for later use
+            }
           });
         }
         
