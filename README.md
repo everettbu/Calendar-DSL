@@ -1,8 +1,9 @@
-## sbt project compiled with Scala 3
+## Calendar Parser
 
-### Usage
+Calendar Parser is a Scala program that parses a text file of event details and outputs a JavaScript file containing an array of events. This is useful for generating calendar events that can be used in a web application.
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+### Getting Started
+1. Clone the repository to your local machine.
+2. Open the terminal and navigate to the project directory.
+3. Run the following command to compile the program:
 
-For more information on the sbt-dotty plugin, see the
-[scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
