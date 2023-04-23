@@ -1,9 +1,10 @@
 # Calendar Parser
 
-This is a Scala program that parses a text file of event details and outputs a JavaScript file containing an array of events. This is useful for generating calendar events that can be used in a web application.
+This is a Scala program that parses a text file containing event details and generates a JavaScript file containing an array of events. This is used to generate calendar events that can be used in an external web application.
 
 ## Description
-Calendar Parser is a Scala program that parses a text file containing events and generates a JavaScript file with the events data. The program reads an input file (input.txt) that contains lines with the following format:
+
+The program reads an input file (input.txt) that contains lines with the following format:
 ```
 <MMM> <D/DD> add '<event name>' (optional: <color>) 
 ```
@@ -43,7 +44,7 @@ The application will create a new file called events.js in the project directory
 - date: the date of the event in YYYY-MM-DD format
 - color: the color of the event (default is black)
 
-The events.js file is used to populate the web-based calendar application.
+The events.js file is then used to populate the web-based calendar application.
 
 ## Dependencies
 The Calendar Parser uses the following external libraries:
