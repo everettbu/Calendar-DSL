@@ -39,7 +39,7 @@ git clone 'https://github.com/hmc-cs111-spring2023/artifact-everettbu.git'
 ```
 sbt run
 ```
-6. Open the HTML file in your web-browser to view the output calendar.
+6. Open the HTML file (calendar.html) in your web-browser to view the output calendar. 
 
 
 ## Output
