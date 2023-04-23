@@ -1,1 +1,9 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /Users/Everett/Desktop/CS111/artifact-everettbu-2/target/scala-3.2.2/artifact_3-0.1.0-SNAPSHOT.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/Everett/Desktop/CS111/artifact-everettbu-3/target/scala-3.2.2/artifact_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CalendarParser.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Everett/Desktop/CS111/artifact-everettbu-3/target/scala-3.2.2/classes/CalendarParser.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CalendarParser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Everett/Desktop/CS111/artifact-everettbu-3/target/scala-3.2.2/classes/CalendarParser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CalendarParser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Everett/Desktop/CS111/artifact-everettbu-3/target/scala-3.2.2/classes/CalendarParser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

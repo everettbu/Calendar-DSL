@@ -1,0 +1,54 @@
+2023.04.23 13:34:45 INFO  Started: Metals version 0.11.12 in workspace '/Users/Everett/Desktop/CS111/artifact-everettbu-3' for client Visual Studio Code 1.77.3.
+Apr 23, 2023 1:34:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 23, 2023 1:34:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 23, 2023 1:34:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 23, 2023 1:34:49 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/Everett/Desktop/CS111/artifact-everettbu-3/.metals/metals (H2 2.1)
+Apr 23, 2023 1:34:49 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Apr 23, 2023 1:34:49 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.014s)
+Apr 23, 2023 1:34:49 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Apr 23, 2023 1:34:49 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Apr 23, 2023 1:34:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Apr 23, 2023 1:34:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Apr 23, 2023 1:34:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Apr 23, 2023 1:34:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Apr 23, 2023 1:34:49 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.045s)
+2023.04.23 13:34:49 INFO  time: initialize in 3.82s
+2023.04.23 13:34:50 WARN  Build server is not auto-connectable.
+2023.04.23 13:34:53 INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/h_/kk82293x21d2gfbwt54pjjmc0000gn/T/metals3499829179884304475/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.04.23 13:34:55 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 1.8.0_261)
+2023.04.23 13:34:59 INFO  [info] loading settings for project artifact-everettbu-3-build-build from metals.sbt ...
+2023.04.23 13:35:00 INFO  [info] loading project definition from /Users/Everett/Desktop/CS111/artifact-everettbu-3/project/project
+2023.04.23 13:35:02 INFO  [info] loading settings for project artifact-everettbu-3-build from metals.sbt ...
+2023.04.23 13:35:02 INFO  [info] loading project definition from /Users/Everett/Desktop/CS111/artifact-everettbu-3/project
+2023.04.23 13:35:06 INFO  [success] Generated .bloop/artifact-everettbu-3-build.json
+2023.04.23 13:35:06 INFO  [success] Total time: 4 s, completed Apr 23, 2023 1:35:06 PM
+2023.04.23 13:35:08 INFO  [info] loading settings for project root from build.sbt ...
+2023.04.23 13:35:08 INFO  [info] set current project to artifact (in build file:/Users/Everett/Desktop/CS111/artifact-everettbu-3/)
+2023.04.23 13:35:08 INFO  [success] Generated .bloop/root.json
+2023.04.23 13:35:08 INFO  [success] Generated .bloop/root-test.json
+2023.04.23 13:35:08 INFO  [success] Total time: 0 s, completed Apr 23, 2023 1:35:08 PM
+2023.04.23 13:35:08 INFO  time: ran 'sbt bloopInstall' in 15s
+2023.04.23 13:35:08 INFO  Attempting to connect to the build server...
+2023.04.23 13:35:08 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.23 13:35:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-3/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.23 13:35:08 INFO  Attempting to connect to the build server...
+2023.04.23 13:35:08 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.23 13:35:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-3/project/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.23 13:35:08 INFO  time: Connected to build server in 0.31s
+2023.04.23 13:35:08 INFO  Connected to Build server: Bloop v1.5.6
+Apr 23, 2023 1:35:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.04.23 13:35:13 INFO  time: indexed workspace in 4.95s
