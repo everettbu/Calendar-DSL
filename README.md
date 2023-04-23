@@ -9,7 +9,9 @@ To use this application, you will need to have Scala installed on your machine.
 ```
 git clone 'https://github.com/hmc-cs111-spring2023/artifact-everettbu.git'
 ```
+
 2. Open a terminal window and navigate to the project directory
+
 3. Open input.txt and add your event information in the following format:
 ```
 <MMM> <D/DD> add '<event name>' (optional: <color>) 
@@ -18,10 +20,12 @@ For example:
 ```
 Apr 15 add 'Club Fair' (green)
 ```
+
 4. Run the application: 
 ```
 sbt run
 ```
+
 5. Open the HTML file in your web
 
 
@@ -32,5 +36,5 @@ The application will create a new file called events.js in the project directory
 - date: the date of the event in YYYY-MM-DD format
 - color: the color of the event (default is black)
 
-The events.js file is used to populate your web-based calendar application.
+The events.js file is used to populate the web-based calendar application.
 
