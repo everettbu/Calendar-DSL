@@ -19,6 +19,11 @@ const events = [
   // ...
 ];
 ```
+This array is then read into the HTML file and adds the events to the calendar output:
+```
+<script src="events.js"></script>
+```
+
 
 ## Usage
 To use this program, follow these steps:
