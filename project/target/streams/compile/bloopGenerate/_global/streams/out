@@ -1,4 +1,4 @@
-[debug] [artifact-everettbu-3-build] Classpath dependencies List()
-[debug] [artifact-everettbu-3-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'artifact-everettbu-3-build' to '/Users/Everett/Desktop/CS111/artifact-everettbu-3/project/.bloop/artifact-everettbu-3-build.json'
-[success] Generated .bloop/artifact-everettbu-3-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[artifact-everettbu-4-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[artifact-everettbu-4-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'artifact-everettbu-4-build' to '/Users/Everett/Desktop/CS111/artifact-everettbu-4/project/.bloop/artifact-everettbu-4-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/artifact-everettbu-4-build.json[0m

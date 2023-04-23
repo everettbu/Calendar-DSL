@@ -2,7 +2,7 @@ import java.io.{File, FileWriter, FileReader}
 import java.text.SimpleDateFormat
 import java.time.{LocalDate, ZoneId}
 import java.time.format.DateTimeFormatter
-import net.fortuna.ical4j.model.{Calendar, DateTime}
+import java.util.Calendar
 import scala.collection.JavaConverters._
 import scala.io.Source
 
@@ -14,7 +14,7 @@ object CalendarParser {
     val inputLines = scala.io.Source.fromFile(inputFilePath).getLines().filter(_.nonEmpty).toList
 
     // Create a new calendar instance
-    val cal = new Calendar()
+    val cal = Calendar.getInstance()
 
     // Initialize an empty mutable list for the events
     var events = List[(String, String, String)]()

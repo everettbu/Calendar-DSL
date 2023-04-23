@@ -52,3 +52,42 @@ INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (e
 Apr 23, 2023 1:35:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
 2023.04.23 13:35:13 INFO  time: indexed workspace in 4.95s
+2023.04.23 14:42:05 INFO  Started: Metals version 0.11.12 in workspace '/Users/Everett/Desktop/CS111/artifact-everettbu-4' for client Visual Studio Code 1.77.3.
+Apr 23, 2023 2:42:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 23, 2023 2:42:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 23, 2023 2:42:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 23, 2023 2:42:09 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/Everett/Desktop/CS111/artifact-everettbu-4/.metals/metals (H2 2.1)
+Apr 23, 2023 2:42:09 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.018s)
+Apr 23, 2023 2:42:09 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 23, 2023 2:42:09 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.23 14:42:09 INFO  time: initialize in 3.86s
+2023.04.23 14:42:09 INFO  Attempting to connect to the build server...
+2023.04.23 14:42:09 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.23 14:42:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-4/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.23 14:42:09 INFO  Attempting to connect to the build server...
+2023.04.23 14:42:09 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.23 14:42:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-4/project/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.23 14:42:09 INFO  time: Connected to build server in 0.37s
+2023.04.23 14:42:09 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 14:42:11 INFO  no build target found for /Users/Everett/Desktop/CS111/artifact-everettbu-4/src/main/scala/CalendarParser.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.23 14:42:12 INFO  time: indexed workspace in 2.11s
+2023.04.23 14:42:12 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-4/src/main/scala/CalendarParser.scala
+2023.04.23 14:42:12 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-4/src/main/scala/CalendarParser.scala
+2023.04.23 14:42:14 INFO  time: code lens generation in 3.52s
+2023.04.23 14:42:14 INFO  time: code lens generation in 1.38s
+2023.04.23 14:42:22 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-4/src/main/scala/CalendarParser.scala
+2023.04.23 14:42:30 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-4/src/main/scala/CalendarParser.scala
+2023.04.23 14:42:32 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-4/src/main/scala/CalendarParser.scala
+2023.04.23 14:42:37 INFO  skipping build import with status 'Dismissed'
+2023.04.23 14:42:37 INFO  time: code lens generation in 1.31s
+2023.04.23 14:42:37 INFO  time: code lens generation in 3.05s
+2023.04.23 14:42:37 INFO  time: code lens generation in 1.98s
+Apr 23, 2023 2:43:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
