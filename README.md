@@ -26,7 +26,7 @@ Apr 15 add 'Club Fair' (green)
 sbt run
 ```
 
-5. Open the HTML file in your web
+5. Open the HTML file in your web-browser to view the output calendar.
 
 
 ## Output
