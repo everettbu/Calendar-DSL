@@ -31715,3 +31715,160 @@ file%3A%2F%2F%2FUsers%2FEverett%2FDesktop%2FCS111%2Fartifact-everettbu-2%2Fartif
 	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
 
 2023.04.22 12:11:58 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/src/main/scala/CalendarParser.scala
+2023.04.23 13:11:38 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.23 13:11:38 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.23 13:11:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-2/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.23 13:11:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-2/project/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.23 13:11:38 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 13:11:39 INFO  time: indexed workspace in 0.93s
+2023.04.23 13:11:39 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/src/main/scala/CalendarParser.scala
+2023.04.23 13:15:21 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/src/main/scala/CalendarParser.scala
+2023.04.23 13:15:26 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/src/main/scala/CalendarParser.scala
+2023.04.23 13:15:30 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/src/main/scala/CalendarParser.scala
+2023.04.23 13:15:36 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/src/main/scala/CalendarParser.scala
+2023.04.23 13:15:40 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/src/main/scala/CalendarParser.scala
+2023.04.23 13:15:41 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/src/main/scala/CalendarParser.scala
+2023.04.23 13:15:51 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/src/main/scala/CalendarParser.scala
+2023.04.23 13:15:56 WARN  Using indexes to guess the definition of DateTime
+2023.04.23 13:15:56 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/artifact/src/main/scala/CalendarParser.scala
+2023.04.23 13:28:33 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/src/main/scala/CalendarParser.scala
+2023.04.23 13:29:39 ERROR No project associated with Uri(file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/project/?id=artifact-everettbu-2-build)
+2023.04.23 13:29:39 ERROR No project associated with Uri(file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/project/?id=artifact-everettbu-2-build)
+2023.04.23 13:29:39 ERROR No project associated with Uri(file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/project/?id=artifact-everettbu-2-build)
+2023.04.23 13:29:39 ERROR No project associated with Uri(file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/project/?id=artifact-everettbu-2-build)
+2023.04.23 13:29:39 INFO  {
+  "jsonrpc": "2.0",
+  "id": "23",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/project/?id\u003dartifact-everettbu-2-build)"
+  }
+}
+2023.04.23 13:29:39 ERROR No project associated with Uri(file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/project/?id=artifact-everettbu-2-build)
+2023.04.23 13:29:39 ERROR No project associated with Uri(file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/project/?id=artifact-everettbu-2-build)
+2023.04.23 13:29:39 ERROR No project associated with Uri(file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/project/?id=artifact-everettbu-2-build)
+2023.04.23 13:29:39 ERROR No project associated with Uri(file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/project/?id=artifact-everettbu-2-build)
+2023.04.23 13:29:39 INFO  {
+  "jsonrpc": "2.0",
+  "id": "27",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/project/?id\u003dartifact-everettbu-2-build)"
+  }
+}
+2023.04.23 13:29:52 INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/h_/kk82293x21d2gfbwt54pjjmc0000gn/T/metals9051843648970174912/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.04.23 13:29:52 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/project/metals.sbt
+2023.04.23 13:29:52 WARN  no build target for: /Users/Everett/Desktop/CS111/artifact-everettbu-2/project/project/metals.sbt
+2023.04.23 13:29:54 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 1.8.0_261)
+2023.04.23 13:29:57 INFO  [info] loading settings for project artifact-everettbu-2-build-build from metals.sbt ...
+2023.04.23 13:29:57 INFO  [info] loading project definition from /Users/Everett/Desktop/CS111/artifact-everettbu-2/project/project
+2023.04.23 13:30:01 INFO  [info] loading settings for project artifact-everettbu-2-build from metals.sbt ...
+2023.04.23 13:30:01 INFO  [info] loading project definition from /Users/Everett/Desktop/CS111/artifact-everettbu-2/project
+2023.04.23 13:30:04 INFO  [success] Generated .bloop/artifact-everettbu-2-build.json
+2023.04.23 13:30:04 INFO  [success] Total time: 3 s, completed Apr 23, 2023 1:30:04 PM
+2023.04.23 13:30:05 INFO  [info] loading settings for project root from build.sbt ...
+2023.04.23 13:30:05 INFO  [info] set current project to artifact (in build file:/Users/Everett/Desktop/CS111/artifact-everettbu-2/)
+2023.04.23 13:30:07 INFO  [success] Generated .bloop/root-test.json
+2023.04.23 13:30:07 INFO  [success] Generated .bloop/root.json
+2023.04.23 13:30:07 INFO  [warn] Removed stale /Users/Everett/Desktop/CS111/artifact-everettbu-2/.bloop/artifact-everettbu.json
+2023.04.23 13:30:07 INFO  [warn] Removed stale /Users/Everett/Desktop/CS111/artifact-everettbu-2/.bloop/artifact-everettbu-test.json
+2023.04.23 13:30:07 INFO  [success] Total time: 1 s, completed Apr 23, 2023 1:30:07 PM
+2023.04.23 13:30:07 INFO  time: ran 'sbt bloopInstall' in 15s
+2023.04.23 13:30:07 INFO  Disconnecting from Bloop session...
+2023.04.23 13:30:07 INFO  Shut down connection with build server.
+2023.04.23 13:30:07 INFO  Shut down connection with build server.
+Apr 23, 2023 1:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:348)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:348)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:284)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:121)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SinkChannelImpl.ensureOpen(SinkChannelImpl.java:154)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:158)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+Apr 23, 2023 1:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:348)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:348)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:284)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:121)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SinkChannelImpl.ensureOpen(SinkChannelImpl.java:154)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:158)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.04.23 13:30:07 INFO  Failed to run request with params InverseSourcesResult
+2023.04.23 13:30:07 INFO  Failed to run request with params InverseSourcesResult
+2023.04.23 13:30:07 INFO  Attempting to connect to the build server...
+2023.04.23 13:30:07 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.23 13:30:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-2/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.23 13:30:07 INFO  Attempting to connect to the build server...
+2023.04.23 13:30:07 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home defined at /Users/Everett/.bloop/bloop.json
+2023.04.23 13:30:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Everett/Desktop/CS111/artifact-everettbu-2/project/.metals/bsp.trace.json or /Users/Everett/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.23 13:30:08 INFO  time: Connected to build server in 1.03s
+2023.04.23 13:30:08 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 13:30:11 INFO  time: indexed workspace in 3.2s
+2023.04.23 13:30:11 INFO  compiling root (1 scala source)
+2023.04.23 13:30:21 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2023.04.23 13:30:21 INFO  compiling root-test (1 scala source)
+2023.04.23 13:30:21 INFO  time: compiled root in 10s
+2023.04.23 13:30:23 INFO  time: compiled root-test in 1.48s
+2023.04.23 13:30:23 INFO  skipping build import with status 'Dismissed'
+Apr 23, 2023 1:30:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

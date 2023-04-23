@@ -2,8 +2,6 @@ import java.io.{File, FileWriter, FileReader}
 import java.text.SimpleDateFormat
 import java.time.{LocalDate, ZoneId}
 import java.time.format.DateTimeFormatter
-import net.fortuna.ical4j.data.CalendarBuilder
-import net.fortuna.ical4j.model.component.VEvent
 import net.fortuna.ical4j.model.{Calendar, DateTime}
 import scala.collection.JavaConverters._
 import scala.io.Source
@@ -41,12 +39,6 @@ object CalendarParser {
           // Add the event to the list
           events = events :+ (date.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")), eventName, eventColor)
           println(s"Added event: $eventName on $date")
-
-        case "remove" =>
-          println("not working yet")
-
-        case _ =>
-          println("Invalid input. Please enter 'add' or 'remove'.")
       }
     }
 
