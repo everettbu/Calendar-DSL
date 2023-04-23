@@ -17,6 +17,7 @@ const events = [
   { title: 'Club Fair', date: '2023-04-15', color: 'blue' },
   // ...
 ];
+```
 
 ## Usage
 To use this program, follow these steps:
@@ -50,3 +51,5 @@ The Calendar Parser uses the following external libraries:
 - ical4j: A Java library for parsing iCalendar data.
 - scala-io: A Scala library for working with files and streams.
 
+## Author
+This program was written by Everett Butler.
