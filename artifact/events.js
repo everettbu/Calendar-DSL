@@ -7,4 +7,6 @@ const events = [
  {title: "Track meet", date: "2023-04-09", color: "red"},
  {title: "Project due", date: "2023-04-15", color: "orange"},
  {title: "Club Fair", date: "2023-04-15", color: "green"},
+ {title: "Quiz", date: "2023-03-13", color: "blue"},
+ {title: "Quiz", date: "2023-03-20", color: "blue"},
 ];

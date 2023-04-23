@@ -1,9 +1,34 @@
 Jan 05 add 'Quiz' (blue)
 Jan 17 add 'Project due' (orange)
+
 Feb 17 add 'Call mother'
-Mar 6 add 'Quiz' (blue)
+
+Mar 6 add 'Quiz' (blue) (every week: Mar 20)
+
 Apr 05 add 'EXAM' (blue)
 Apr 9 add 'Track meet' (red)
 Apr 15 add 'Project due' (orange)
 Apr 15 add 'Club Fair' (green)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mar 13 add 'Quiz' (blue)
+Mar 20 add 'Quiz' (blue)
