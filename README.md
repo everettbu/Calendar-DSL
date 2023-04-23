@@ -46,11 +46,6 @@ The application will create a new file called events.js in the project directory
 
 The events.js file is then used to populate the web-based calendar application.
 
-## Dependencies
-The Calendar Parser uses the following external libraries:
-
-- ical4j: A Java library for parsing iCalendar data.
-- scala-io: A Scala library for working with files and streams.
 
 ## Author
 This program was written by Everett Butler.
