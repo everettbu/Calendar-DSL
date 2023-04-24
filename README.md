@@ -33,7 +33,7 @@ To use this program, follow these steps:
 ```
 git clone 'https://github.com/hmc-cs111-spring2023/artifact-everettbu.git'
 ```
-3. Open input.txt and add your event information. Only add one event per line. An example input file is provided in the repository for reference.
+3. Open input.txt and add your event information. Only add one event per line. An example input file is provided in the repository for reference. https://github.com/hmc-cs111-spring2023/artifact-everettbu/blob/main/input.txt
 4. Open a terminal window and navigate to the project directory.
 ```
 cd artifact-everettbu
