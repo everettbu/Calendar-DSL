@@ -1,4 +1,4 @@
-# Monthly Calendar Parser
+# Monthly Calendar DSL
 
 Calendar Parser is a Scala program that parses a text file containing event details and outputs a JavaScript file containing an array of events. This is used to generate calendar events that can be used in an external web application.
 
